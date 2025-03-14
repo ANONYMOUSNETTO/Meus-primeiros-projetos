@@ -1,2 +1,30 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+// Bernardo Neto - 13/03/2025
+//Calculadora de soma e média com três notas em C
+int main(void) {
+    
+
+    float n1, n2, n3, n4, n5, soma, media;
+    
+    printf("Digite sua 1° nota:");
+    scanf("%f", &n1);
+    
+    printf("Digite sua 2° nota:");
+    scanf("%f", &n2);
+    
+    printf("Digite sua 3° nota:");
+    scanf("%f", &n3);
+    
+    
+    soma = n1 + n2 + n3;
+    
+    printf("Resultado da soma: %2.f\n", soma);
+    
+    media = soma / 3;
+    
+    printf("Média do Bimestre = %.1f\n" , media);
+    
+
+
+    return 0;
+}
